@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--colour-secondary-white-100-general, white);
+}
+
+
+.top-header {
+    width: 1440px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-menu {
+    display: flex;
+    margin-left: 165px;
+    height: 60px;
+    width: 245px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+
+    list-style: none;
+    color: var(--colour-main-blue-500, #505F98);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Regular 14 */
+    font-family: 'Roboto', sans-serif;
+    ;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+}
+
+.banner {
+
+    color: var(--colour-logo-primary, #37447E);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Bold 26 */
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 38px;
+    /* 146.154% */
+}
+
+.btn-buynow {
+    display: flex;
+}
+
+button {
+
+    width: 160px;
+    height: 26px;
+
+    color: var(--colour-secondary-white-100-general, #FFF);
+    text-align: center;
+
+    /* Medium 12 */
+    font-family: 'font-family: ' Roboto', sans-serif;', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    /* 150% */
+    border-radius: 2px;
+    background: var(--colour-main-blue-800, #111B47);
+}
+
+/* section introduct-product */
+#introduce {
+    width: 1440px;
+}
+
+.introduce-product {
+    display: flex;
+    padding-top: 301px;
+}
+
+.title-introduce,
+.detail-content {
+    width: 539px;
+}
+
+.detail-content {
+    height: fit-content;
+}
+
+
+
+.bg-section-introduce {
+    position: absolute;
+    right: 0;
+    width: 1150px;
+    height: 1106px;
+    flex-shrink: 0;
+}
+
+.btn-bottom {
+    display: flex;
+    margin-top: 79px;
+}
+
+.btn-purchase-kit,
+.btn-learn-more {
+    width: 189px;
+    margin-right: 30px;
+}
+
+.btn-learn-more {
+    color: var(--colour-main-blue-900, #091133);
+    text-align: center;
+
+    background-color: transparent;
+    /* Medium 16 */
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+
+.bg-section-introduce>svg {
+    z-index: -1;
+    position: absolute;
+    opacity: 1.5;
+
+}
+
+.introduce-right>img:first-child {
+    z-index: 1;
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    transform: translate(-30%, -60%) rotate(-180deg);
+    flex-shrink: 1;
+}
+.introduce-right>img:nth-child(2) {
+    z-index: 2;
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    transform: translate(-20%, -50%) rotate(-150deg);
+    flex-shrink: 1;
+}
+
