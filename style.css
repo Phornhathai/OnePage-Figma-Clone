@@ -319,10 +319,123 @@ button {
 
 #promotion {
     width: 1440px;
-    height: 742px;
-    background-color: pink;
+    height: 600px;
+    text-align: center;
 }
 
-.promotion-content{
-    
+.promotion-content {
+    display: flex;
+    justify-content: center;
+    padding-top: 165px;
+}
+
+.last-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+.sub-title-promotion {
+    padding-top: 50px;
+    color: var(--colour-main-blue-900, #091133);
+    text-align: center;
+
+    /* Medium 36 */
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.sub-content-promotion {
+    width: 600px;
+    color: var(--colour-main-blue-400, #6F7CB2);
+
+    /* Regular 16 */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    /* 162.5% */
+
+}
+
+.sub-last-content {
+    padding-top: 60px;
+    color: var(--colour-main-grey-600, #5D6970);
+
+    /* Regular 14 */
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    /* 171.429% */
+}
+
+.last-content>svg {
+    position: absolute;
+    z-index: -1;
+}
+
+.last-content>.btn-bottom {
+    margin-top: 8px;
+}
+
+/* section footer */
+
+footer {
+    margin-top: 165px;
+    padding-top: 30px;
+    width: 1440px;
+    height: fit-content;
+    background: #E7ECFF;
+}
+
+.before-last-items {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company-name {
+    color: var(--colour-main-grey-400, #939EA4);
+    margin-left: 70px;
+    justify-content: baseline;
+    /* Medium 14 */
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    /* 171.429% */
+}
+
+.landing-name {
+    color: var(--colour-logo-primary, #37447E);
+    justify-content: baseline;
+    /* Bold 26 */
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+    /* 146.154% */
+}
+
+.before-last-items > .btn-bottom {
+    margin-bottom: 25px;
+    margin-right: 40px;
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.sub-menu > ul{
+    display: flex;
+}
+.sub-menu > ul > li{
+    padding-left: 40px;
+}
+
+.social-icons > ul{
+    display: flex;
+}
+.social-icons > ul > li{
+    padding-right: 40px;
 }
