@@ -150,6 +150,7 @@ button {
     position: absolute;
     width: 840px;
     height: 630px;
+    right: 0px;
 }
 
 /* .introduce-right>img:nth-child(2) {
@@ -400,7 +401,7 @@ footer {
 .company-name {
     color: var(--colour-main-grey-400, #939EA4);
     margin-left: 70px;
-    justify-content: baseline;
+    justify-content: center;
     /* Medium 14 */
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -410,7 +411,7 @@ footer {
 
 .landing-name {
     color: var(--colour-logo-primary, #37447E);
-    justify-content: baseline;
+    justify-content: center;
     /* Bold 26 */
     font-family: 'Roboto', sans-serif;
     font-size: 26px;
